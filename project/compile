@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Installing Python dependencies..."
+pip install click
+pip install cryptography
+pip install dnslib
+pip install Flask
+pip install jwcrypto
+pip install Requests
+echo "Compilation complete."
